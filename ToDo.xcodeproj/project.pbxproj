@@ -13,6 +13,7 @@
 		498DF3D11D95FE8500B9B57C /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 498DF3CF1D95FE8500B9B57C /* ToDo.xcdatamodeld */; };
 		498DF3D31D95FE8500B9B57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498DF3D21D95FE8500B9B57C /* Assets.xcassets */; };
 		498DF3D61D95FE8500B9B57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498DF3D41D95FE8500B9B57C /* LaunchScreen.storyboard */; };
+		498DF3DE1D960EA800B9B57C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DF3DD1D960EA800B9B57C /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		498DF3D21D95FE8500B9B57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498DF3D51D95FE8500B9B57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498DF3D71D95FE8500B9B57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498DF3DD1D960EA800B9B57C /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = ../Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				498DF3C81D95FE8500B9B57C /* AppDelegate.swift */,
 				498DF3CA1D95FE8500B9B57C /* ViewController.swift */,
+				498DF3DD1D960EA800B9B57C /* Task.swift */,
 				498DF3CC1D95FE8500B9B57C /* Main.storyboard */,
 				498DF3D21D95FE8500B9B57C /* Assets.xcassets */,
 				498DF3D41D95FE8500B9B57C /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498DF3DE1D960EA800B9B57C /* Task.swift in Sources */,
 				498DF3CB1D95FE8500B9B57C /* ViewController.swift in Sources */,
 				498DF3D11D95FE8500B9B57C /* ToDo.xcdatamodeld in Sources */,
 				498DF3C91D95FE8500B9B57C /* AppDelegate.swift in Sources */,
